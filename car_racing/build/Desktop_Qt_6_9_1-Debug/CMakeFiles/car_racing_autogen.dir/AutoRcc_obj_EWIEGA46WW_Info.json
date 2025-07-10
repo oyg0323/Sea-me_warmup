@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/car_racing_autogen",
+	"CMAKE_BINARY_DIR" : "/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/yg/car_racing",
+	"CMAKE_SOURCE_DIR" : "/home/yg/car_racing",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/car_racing_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/yg/car_racing/Untitled.jpeg",
+		"/home/yg/car_racing/rueasy-removebg-preview(1).png",
+		"/home/yg/car_racing/mario-removebg-preview(1).png"
+	],
+	"LOCK_FILE" : "/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/car_racing_autogen.dir/AutoRcc_obj_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "obj" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_obj.cpp",
+	"RCC_EXECUTABLE" : "/home/yg/Qt/6.9.1/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/car_racing_autogen.dir/AutoRcc_obj_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/yg/car_racing/obj.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

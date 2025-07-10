@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>mario-removebg-preview(1).png</file>
+        <file>rueasy-removebg-preview(1).png</file>
+        <file>Untitled.jpeg</file>
+    </qresource>
+</RCC>

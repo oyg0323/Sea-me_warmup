@@ -1,0 +1,9 @@
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/car_racing.dir
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/edit_cache.dir
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/list_install_components.dir
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install.dir
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install/local.dir
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install/strip.dir
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/car_racing_autogen_timestamp_deps.dir
+/home/yg/car_racing/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/car_racing_autogen.dir
