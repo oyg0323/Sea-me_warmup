@@ -1,7 +1,10 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QMainWindow>
-
+#include <QFileDialog>
+#include <QMessageBox>
+#include <QCoreApplication>
+#include <QDir>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -10,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     contacts_.loadFromFile("contacts.json");
     refreshlist(contacts_.all());
+
+
 }
 
 MainWindow::~MainWindow()
@@ -63,4 +68,40 @@ void MainWindow::on_search_clicked()
     // 이름 입력창의 텍스트를 검색어로 사용
     auto results = contacts_.search(ui->searchEdit->text());
     refreshlist(results);
+}
+void MainWindow::on_Save_clicked(){
+    QString defaultPath = QCoreApplication::applicationDirPath()
+    + QDir::separator()
+        + "contacts.json";
+
+    // 2) 다이얼로그 호출 시 기본 경로로 설정
+    QString path = QFileDialog::getSaveFileName(
+        this,
+        tr("Save Contacts"),
+        defaultPath,               // ← 여기
+        tr("JSON Files (*.json)")
+        );
+    if (path.isEmpty()) return;
+
+    if (!contacts_.saveToFile(path)) {
+        QMessageBox::warning(
+            this,
+            tr("Error"),
+            tr("Failed to save file.")
+            );
+    }}
+void MainWindow::on_Load_clicked() {
+    QString path = QFileDialog::getOpenFileName(
+        this,
+        tr("Load Contacts"),
+        QString(),
+        tr("JSON Files (*.json)")
+        );
+    if (path.isEmpty()) return;
+
+    if (!contacts_.loadFromFile(path)) {
+        QMessageBox::warning(this, tr("Error"), tr("Failed to load file"));
+        return;
+    }
+    refreshlist(contacts_.all());
 }

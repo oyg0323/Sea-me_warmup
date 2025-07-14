@@ -42,8 +42,12 @@ public:
             };
             arr.append(QJsonValue(obj));   // ← QJsonValue로 감싸서 append
         }
-        return true;
-    }
+        QJsonDocument doc(arr);
+        QFile file(path);
+        if(!file.open(QIODevice::WriteOnly)) return true;
+        file.write(doc.toJson());
+        return file.close(),true;
+        }
     // contactlist.h (헤더 안)
     bool loadFromFile(const QString &path) {
         QFile file(path);
@@ -57,7 +61,7 @@ public:
                 obj["phone"].toString(),
                 obj["email"].toString()));
         }
-        return true;
+        return file.close(),true;
     }
 
 

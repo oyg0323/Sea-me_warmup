@@ -1,0 +1,9 @@
+/home/yg/phonebook/build/CMakeFiles/phonebook.dir
+/home/yg/phonebook/build/CMakeFiles/edit_cache.dir
+/home/yg/phonebook/build/CMakeFiles/rebuild_cache.dir
+/home/yg/phonebook/build/CMakeFiles/list_install_components.dir
+/home/yg/phonebook/build/CMakeFiles/install.dir
+/home/yg/phonebook/build/CMakeFiles/install/local.dir
+/home/yg/phonebook/build/CMakeFiles/install/strip.dir
+/home/yg/phonebook/build/CMakeFiles/phonebook_autogen_timestamp_deps.dir
+/home/yg/phonebook/build/CMakeFiles/phonebook_autogen.dir

@@ -20,6 +20,8 @@ private slots:
     void on_add_clicked();
     void on_remove_clicked();
     void on_search_clicked();
+    void on_Save_clicked();
+    void on_Load_clicked();
 private:
     Ui::MainWindow *ui;
     contactlist contacts_;
